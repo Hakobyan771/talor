@@ -53,3 +53,28 @@ body{
     font-weight: 600;
     line-height: 39.6px;
 }
+
+.header{
+    padding-top: 52px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.menu__list{
+    display: flex;
+    gap: 57px;
+    font-size: 20px;
+}
+
+.menu__item:hover{
+    color: #FF5324;
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+.header__serch{
+    display: flex;
+    gap: 40px;
+}
