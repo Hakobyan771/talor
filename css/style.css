@@ -247,12 +247,21 @@ body{
 .worcs__title{
     font-size: 64px;
     font-weight: 700;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
+
+
 
 .worcs__title span{
     color: #F55529;
+    text-decoration: underline;
+    text-decoration-color: #F55529;
 }
+
+
+
+
+
 
 .worcs__text{
     max-width: 517px;
@@ -273,4 +282,39 @@ body{
 
 .images__text{
     text-align: center;
+}
+
+.visitors{
+    padding-top: 164px;
+}
+
+.visitors__inner{
+    display: flex;
+    gap: 168px;
+    justify-content: center;
+}
+
+.visitors__title{
+    font-size: 50px;
+    max-width: 492px;
+    font-weight: 700;
+    line-height: 150.5%;
+    margin-bottom: 21px;
+    text-decoration: underline;
+}
+
+.visitors__title span{
+    color: #F55529; 
+    text-decoration: underline;
+    text-decoration-color: #F55529;
+}
+
+.visitors__text{
+    font-weight: 500;
+    max-width: 571px;
+}
+
+.visitors__img{
+   width: 100%;
+    max-width: 425px;
 }
