@@ -34,7 +34,7 @@ input {
 
 .wrapper {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;  
 }
 
 .container-lg {
@@ -120,6 +120,9 @@ body{
     padding-top: 186px;
 }
 
+.bigger__text{
+    max-width: 604px;
+}
 
 
 .bigger__title span{
@@ -131,7 +134,7 @@ body{
     gap: 29px;
 }
 .bigger__images-big{
-    max-width: 480px;
+    max-width: 480px; 
     width: 100%;
 }
 
@@ -139,6 +142,7 @@ body{
     width: 100%;
     max-width: 367px;
     padding-top: 69px;
+   
 }
 
  .better__text{
@@ -153,7 +157,7 @@ body{
 .creative__title{
     font-size: 64px;
     font-weight: 700;
-    max-width: 590.413px;
+     max-width: 590.413px; 
     line-height: 150.5%;
 }
 
@@ -162,7 +166,7 @@ body{
 }
 
 .creative__inner{
-    padding-left: 95px;
+    padding-left: 237px;
 }
 
 
@@ -189,7 +193,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 160px;
-    margin-left: 122px;
+    margin-left: 260px;
     width: 1172px;
     height: 210px;
     padding: 66px 41px;
@@ -199,16 +203,17 @@ body{
 .information::before {
     content: "";
     position: absolute;
-    right: -18px;
     top: 18px;
-    left: -18px;
-    bottom: 36px;
     width: 1207px;
     height: 210px;
     background-image: url(../images/Frame\ 5.png);
     background-size: cover;
     background-position: center;
     z-index: -1;
+}
+
+.information img{
+    max-width: 100%;
 }
 
 
@@ -226,4 +231,46 @@ body{
     
 }
 
+.worcs{
+    padding-top: 178px;
+}
+.worcs__inner{
+    padding-left: 95px;
+}
 
+.worcs__content{
+    display: flex;
+    gap: 226px;
+    justify-content: center;
+}
+
+.worcs__title{
+    font-size: 64px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.worcs__title span{
+    color: #F55529;
+}
+
+.worcs__text{
+    max-width: 517px;
+    margin-bottom: 86px;
+}
+
+.worcs__images{
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+}
+.worcs__images-img img{
+    width: 100%;
+    max-width: 377px;
+    border: 1px solid #000;
+    box-shadow: 0px 11px 52px 0px rgba(0, 0, 0, 0.25);
+}
+
+.images__text{
+    text-align: center;
+}
