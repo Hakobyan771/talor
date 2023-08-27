@@ -318,3 +318,51 @@ body{
    width: 100%;
     max-width: 425px;
 }
+
+.conect{
+    position: relative;
+    background-image: url(../images/conect.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1919px;
+    height: 636px;
+    padding-top: 172px;
+    margin-top: 128px;
+}
+
+.conect::before{
+    content: "";
+    background-image: url(../images/icon-conect.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    bottom: 52px;
+    right: 80px;
+}
+
+
+.conect__title{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 150.5%;
+    max-width: 869px;
+    margin-bottom: 21px;
+}
+
+.conect__text{
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.conect__inner{
+    display: flex;
+   justify-content: center;
+}
