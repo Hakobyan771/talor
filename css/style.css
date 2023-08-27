@@ -366,3 +366,49 @@ body{
     display: flex;
    justify-content: center;
 }
+
+.ourawards{
+    padding-top: 124px;
+}
+
+.ourawards__title{
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 72px;
+    padding-left: 181px;
+}
+
+.ourawards__subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.ouravards__see{
+    display: flex;
+}
+
+.ourawards__slogan{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.slogan__txet{
+    display: flex;
+    color: #979797;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 79px;
+}
+
+
+.ourawards__line{
+    max-width: 1159px;
+    height: 1px;
+    background: #000;
+    margin: -15px 0 0 142px;
+    padding-left: 181px;
+}
+
+
