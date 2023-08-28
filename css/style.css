@@ -411,4 +411,48 @@ body{
     padding-left: 181px;
 }
 
+.footer{
+    margin-top: 226px;
+    background: #F9F6F4;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.footer__list--1{
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 481px;
+    line-height: 150.5%;
+    text-decoration: underline;
+    margin-bottom: 38px;
+}
+
+.footer__list span{
+    color: #F55529;
+}
+
+.footer__list--2{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.footer__list--3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 38px;
+    text-decoration: underline;
+}
+
+.footer__list{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.footer__inner{
+    padding: 160px 0 160px 0;
+}
