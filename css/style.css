@@ -681,7 +681,67 @@ body{
         .conect__inner {
             flex-direction: column; 
         }
-        
+        .ourawards {
+            padding-top: 80px; 
+        }
+    
+        .ourawards__title {
+            font-size: 36px;
+            margin-bottom: 40px; 
+            padding-left: 20px; 
+        }
+    
+        .ourawards__subtitle {
+            flex-direction: column;
+            align-items: center; 
+        }
+    
+        .ouravards__see {
+            flex-direction: column; 
+        }
+    
+        .ourawards__slogan {
+            font-size: 28px; 
+            margin-bottom: 10px; 
+        }
+    
+        .slogan__txet {
+            font-size: 18px; 
+            margin-bottom: 60px; 
+        }
+    
+        .ourawards__line {
+            max-width: 100%; 
+            margin: -10px 0 0 20px; 
+            padding-left: 20px; 
+        }
+        .footer {
+            margin-top: 120px; 
+        }
+    
+        .footer__content {
+            flex-direction: column; 
+            align-items: center; 
+        }
+    
+        .footer__list--1,
+        .footer__list--2,
+        .footer__list--3,
+        .footer__list {
+            font-size: 28px; 
+            max-width: 100%; 
+            text-decoration: none; 
+            margin-bottom: 20px; 
+            text-align: center; 
+        }
+    
+        .footer__list span {
+            color: #F55529;
+        }
+    
+        .footer__inner {
+            padding: 80px 0; 
+        }
 }
 
 
