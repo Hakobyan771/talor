@@ -40,7 +40,6 @@ input {
 .container-lg {
     max-width: 1620px;
     width: 100%;
-    /* padding-right: 50px; */
     margin: 0 auto;
 }
 
@@ -456,3 +455,135 @@ body{
 .footer__inner{
     padding: 160px 0 160px 0;
 }
+
+@media (max-width: 1285px) {
+        .bigger {
+            max-width: 100%;
+        }
+    
+        .bigger::after {
+            left: 40px;
+            width: 1px;
+            height: 120px;
+        }
+    
+        .bigger__inner {
+            padding-left: 40px;
+        }
+    
+        .bigger__title {
+            font-size: 48px;
+            padding-top: 120px;
+        }
+    
+        .bigger__images-better {
+            padding-top: 30px;
+        }
+    
+        .better__text {
+            font-size: 12px;
+        }
+        .bigger__images-better{
+            display: none;
+        }
+}
+
+
+
+@media (max-width: 992px) {
+        .bigger {
+            max-width: 100%;
+        }
+    
+        .bigger::after {
+            left: 30px;
+            width: 1px;
+            height: 100px;
+        }
+    
+        .bigger__inner {
+            padding-left: 30px;
+        }
+    
+        .bigger__title {
+            font-size: 36px;
+            padding-top: 80px;
+        }
+    
+        .bigger__images-better {
+            padding-top: 20px;
+        }
+    
+        .better__text {
+            font-size: 10px;
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+    .menu__list {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .menu__list--open {
+        display: block;
+        background: #fff;
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+    .bigger {
+        padding: 30px;
+    }
+
+    .bigger::after {
+        left: 30px;
+        top: 30px;
+        width: 1px;
+        height: 100px;
+    }
+
+    .bigger__inner {
+        padding-left: 30px;
+    }
+
+    .bigger__title {
+        font-size: 36px;
+        padding-top: 60px;
+    }
+
+    .bigger__content {
+        flex-direction: column;
+    }
+
+    .bigger__images-big,
+    .bigger__images-better {
+        max-width: 100%;
+        padding-top: 30px;
+    }
+
+    .better__text {
+        font-size: 14px;
+    }
+    .bigger__images-better{
+        display: block;
+    }
+  
+}
+
